@@ -255,6 +255,10 @@ section {
   .mySlides {
     display: none;
   }
+
+  .imgSlide {
+    height: 80vh;
+  }
   
   /* Next & previous buttons */
   .prev, .next {
@@ -368,7 +372,7 @@ section {
   align-items: center;
   font-size: 1.5rem;
   border: none;
-  color: var(--lightblue);
+  color: black;
   opacity: 0.5;
   background: transparent;
   z-index: 999;
@@ -386,6 +390,7 @@ section {
 
 .rightbtnscroll {
   right: 0;
+  opacity: 0.7;
 }
 
 .imgsectionto {
